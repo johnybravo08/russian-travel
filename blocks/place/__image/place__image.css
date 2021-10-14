@@ -1,0 +1,15 @@
+.place__image {
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 490px) {
+  .place__image {
+    order: 3;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__image {
+    order: 3;
+  }
+}
