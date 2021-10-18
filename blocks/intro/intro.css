@@ -5,6 +5,12 @@
     margin: 0px 0px 0px 148px;
     position: relative;
     padding-top: 114px;
+    max-width: 690px;
+  }
+  @media screen and (min-width: 1281px) {
+    .intro {
+      margin: 0px auto 0px auto;
+    }
   }
   @media screen and (max-width: 1024px) {
     .intro {

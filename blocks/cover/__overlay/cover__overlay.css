@@ -10,7 +10,7 @@
   align-items: center;
   flex-direction: column;
   text-decoration: none;
-  max-width: 1184px;
+  min-width: 1184px;
   min-height: 740px;
 }
 .cover__overlay::after {

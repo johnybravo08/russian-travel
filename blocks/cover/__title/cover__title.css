@@ -2,12 +2,11 @@
   color: white;
   margin: 0;
   max-width: 560px;
-  max-height: 152px;
   text-align: center;
   z-index: 2;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 106%;
 }
 @media screen and (max-width: 320px) {
   .cover__title {
@@ -16,6 +15,5 @@
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
-    max-height: 70px;
   }
 }
