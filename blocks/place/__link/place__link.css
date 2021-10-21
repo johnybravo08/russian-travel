@@ -1,5 +1,12 @@
 .place__link {
-    font-size: 18px;
-    line-height: 122%;
-    text-decoration-line: underline;
+  font-size: 18px;
+  line-height: 122%;
+  text-decoration-line: underline;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    padding-left: 16px;
   }
+}

@@ -8,8 +8,3 @@
     order: 3;
   }
 }
-@media screen and (max-width: 320px) {
-  .place__image {
-    order: 3;
-  }
-}

@@ -1,6 +1,5 @@
 .caption {
     color: white;
-    width: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -8,4 +7,14 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 0;
+  }
+  @media screen and (max-width: 768px) {
+    .caption {
+      padding-left: 24px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .caption {
+      padding-left: 16px;
+    }
   }

@@ -8,10 +8,9 @@
   font-size: 72px;
   line-height: 106%;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 510px) {
   .cover__title {
     font-style: normal;
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
