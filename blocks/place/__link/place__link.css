@@ -5,8 +5,9 @@
   word-break: break-word;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 490px) {
   .place__link {
     padding-left: 16px;
+    grid-row-start: 2;
   }
 }

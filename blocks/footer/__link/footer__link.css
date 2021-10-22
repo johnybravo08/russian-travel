@@ -25,3 +25,8 @@
     margin-bottom: 32px;
   }
 }
+
+@media screen and (max-width:320px) {
+  .footer__link:last-child {
+    margin-bottom: 0;
+  }
